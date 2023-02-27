@@ -1,5 +1,4 @@
 ## OCBC RED Masterclass Hands-on Lab
-#
 
 ### **Introduction**
 This lab covers the fundamentals of DevOps and cloud-native application development on OCI.
@@ -7,6 +6,25 @@ This lab covers the fundamentals of DevOps and cloud-native application developm
 ### **Pre-requisites**
 1. Login credentials for your assigned users.
 2. Basic understanding of Terraform, Docker and Kubernetes.
+
+### **Required Resources**
+- 1 x OKE Cluster
+- 1 x VM.Standard.E3.Flex instance with 1 OCPU and 4GB RAM
+- 1 x VCN
+- 3 x Subnets
+- 1 x Internet GW
+- 1 x NAT GW
+- 1 x Service GW
+- 1 x OCI DevOps Project
+- 1 x Cloud Shell
+- 1 x Resouce Manager Stack
+- 1 x Log Group
+
+### **Common Resources**
+- 1 x Artifact Registry
+- 1 x Notification Topic
+
+#
 
 ### **Lab instructions**
 
