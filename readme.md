@@ -174,7 +174,7 @@ This lab covers the fundamentals of DevOps and cloud-native application developm
 
 1. Return to Cloud Shell. Refer to [step (c).10](#c-secure-access-to-a-private-oke-cluster).
 2. Run `kubectl get svc -n nginx-webapp` and note down the "EXTERNAL-IP".
-3. Go to your favourite browser and run "http://<EXTERNAL-IP>:5000" 
+3. Go to your favourite browser and run `http://<EXTERNAL-IP>:5000`
 4. You should see a simple Nginx Webpage.
 ![image](img/18.%20app%20result.png)
 
@@ -182,4 +182,4 @@ This lab covers the fundamentals of DevOps and cloud-native application developm
 #
 Increase the number of OKE worker nodes from 1 to 2 using Resource Manager. 
 
-***Hint***: You can modify the number of nodes from the Terraform script and apply the change. Code Editor provides the ability to change the Terraform script directly. Refer to [section a](#a-provision-a-container-engine-for-kubernetes-oke-cluster-via-resource-manager) step 13 to 15 for more details.
+***Hint***: You can modify the number of nodes from the Terraform script and apply the change. Code Editor provides the ability to change the Terraform script directly. Refer to [section (a)](#a-provision-a-container-engine-for-kubernetes-oke-cluster-via-resource-manager) step 13 to 15 for more details.
