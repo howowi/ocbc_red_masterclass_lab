@@ -52,7 +52,7 @@ This lab covers the fundamentals of DevOps and cloud-native application developm
 6. Press "Next".
 7. Check the configuration and press **"Save as stack"**. [**WARNING**] Do not press "Create cluster".
 ![image](img/3.%20save%20as%20stack.png)
-8. Change the stack name to `<allocated_user>-stack` eg.user100-stack and press "Save".
+8. Change the stack name to `<allocated_user>-oke-stack` eg.user100-oke-stack and press "Save".
 9. On the seach bar, type "stacks" and click on "Stacks" under Services.
 10. Click on the stack.
 ![image](img/4.%20view_stack_oke.png)
